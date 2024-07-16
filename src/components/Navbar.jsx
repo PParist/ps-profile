@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/PParist"
+                href="https://github.com/PParist/ps-profile"
                 target="_blank"
                 className="fork-btn-inner"
               >

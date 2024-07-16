@@ -22,7 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/PParist/go-bank-service"
+                href="https://github.com/PParist"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

@@ -5,6 +5,7 @@ import {
   SiPostman,
   SiGooglecloud ,
   SiJira,
+  SiApachekafka,
   SiDocker  
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
@@ -23,6 +24,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

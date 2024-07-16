@@ -9,7 +9,6 @@ import {
 import {
   SiRedis,
   SiPostgresql,
-  SiApachekafka,
   SiJavascript,
   SiCss3  
 } from "react-icons/si";
@@ -48,9 +47,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiApachekafka />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
