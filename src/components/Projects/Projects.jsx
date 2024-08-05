@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import api from "../../Assets/Projects/api.jpg";
-
+import auth0 from "../../Assets/Projects/auth0.jpg"
 import otpMail from "../../Assets/Projects/otp.jpg";
 
 function Projects() {
@@ -35,6 +35,16 @@ function Projects() {
               title="OTP-Service"
               description="My personal send email service"
               ghLink="https://github.com/PParist/go-otp-service"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={auth0}
+              isBlog={false}
+              title="Login with Auth0"
+              description="login service implement by Oauth2.0"
+              ghLink="https://github.com/PParist/go-auth0"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
